@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
 const UseStateBasics = () => {
-  const [text, setText] = useState('random title');
+  const [text, setText] = useState('one');
   const handleClick = () => {
-    if (text === 'random title') {
-      setText('hello world');
+    if (text === 'one') {
+      setText('two');
     } else {
-      setText('random title');
+      setText('one');
     }
   }
   return (
